@@ -761,7 +761,7 @@ header ion-icon {
     margin: auto;
     z-index: 1;
     padding: 100px 0;
-    
+
 }
 
 .top-display h1 {
@@ -785,7 +785,7 @@ header ion-icon {
 }
 
 @keyframes tdapp {
-    to{
+    to {
         transform: translateX(0%);
     }
 }
@@ -809,8 +809,8 @@ header ion-icon {
 }
 
 @keyframes modelapp {
-    to{
-    transform: translateY(0%);
+    to {
+        transform: translateY(0%);
     }
 }
 
@@ -825,20 +825,20 @@ header ion-icon {
 }
 
 .card img {
-    height:200px;
+    height: 200px;
     object-fit: cover;
     opacity: 0.85;
     transition: 0.5s;
 }
 
-.card:hover img{
+.card:hover img {
     filter: saturate(2);
     opacity: 1;
 }
 
-.card:hover{
+.card:hover {
     border: none;
-    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .ct1 {
@@ -910,14 +910,14 @@ header ion-icon {
     display: flex;
 }
 
-.card .btn-cont{
+.card .btn-cont {
     width: 90%;
     margin: auto;
 }
 
 .card-text button {
     width: 100%;
-    margin:20px auto;
+    margin: 20px auto;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -941,37 +941,38 @@ header ion-icon {
 }
 
 @media (max-width:1340px) {
-    .models{
+    .models {
         width: 100%;
         justify-content: space-around;
     }
-    .card{
+
+    .card {
         flex: 0 1 32%
     }
 }
 
 @media (max-width:1215px) {
-    .card{
+    .card {
         flex: 0 1 45%;
     }
 }
 
 @media (max-width:615px) {
-    .models{
+    .models {}
 
-    }
-    .card{
+    .card {
         flex: 0 1 100%;
     }
 }
 
-#faq{
+#faq {
     width: 70%;
     margin: auto;
     padding: 5px;
+    margin-bottom: 40px;
 }
 
-#faq h4, #faq h2, #faq p{
+#faq h4, #faq h2, #faq p {
     margin-bottom: 15px;
 }
 
@@ -981,13 +982,13 @@ header ion-icon {
     font-weight: 200;
 }
 
-#faq h2{
+#faq h2 {
     padding: 5px;
     font-size: 45px;
     font-weight: 800;
 }
 
-#faq p{
+#faq p {
     width: 100%;
     margin: auto;
     padding: 5px;
@@ -997,19 +998,19 @@ header ion-icon {
     margin-bottom: 30px;
 }
 
-.accordion{
+.accordion {
     width: 70%;
     margin: auto;
 }
 
-.accordion-button{
-    background: linear-gradient(90deg,#FD662F,#ff8d64);
+.accordion-button {
+    background: linear-gradient(90deg, #FD662F, #ff8d64);
     color: white;
     outline: none;
     border: none;
 }
 
-.accordion-item{
+.accordion-item {
     background: transparent;
     padding: 0;
     border: transparent;
@@ -1017,20 +1018,187 @@ header ion-icon {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.133);
 }
 
-.accordion-button:focus{
+.accordion-button:focus {
     box-shadow: 0px 5px 10px transparent;
 }
 
-.accordion{
+.accordion {
     /* border: 2px solid black; */
     border-radius: 15px;
 }
 
 @media (max-width:1000px) {
-    .accordion{
+    .accordion {
         width: 100%;
     }
-    #faq{
+
+    #faq {
         width: 100%;
+    }
+}
+
+.da {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(233, 233, 233);
+    margin-bottom: 40px;
+}
+
+.da-text {
+    flex: 0 1 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.da-text h2 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.da-text p {
+    color: gray;
+}
+
+.da img {
+    max-width: 40%;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 0 5px rgba(128, 128, 128, 0.52));
+}
+
+.download-app {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    gap: 40px;
+}
+
+.download-app button {
+    border: none;
+    outline: none;
+    flex: 0 1 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: black;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.download-app button ion-icon {
+    flex: 0 1 30%;
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    font-size: 40px;
+    color: white;
+}
+
+.download-app button span {
+    flex: 0 1 80%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid white; */
+    align-items: start;
+    justify-content: space-around;
+    /* line-height:4px; */
+}
+
+.download-app button span p:nth-child(1) {
+    font-size: 14px;
+    color: white;
+}
+
+.download-app button span p {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+@media (max-width:1088px) {
+    .da-text{
+        flex: 0 1 50%;
+        text-align: center;
+    }
+    .da-text h2 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .da-text p {
+        color: gray;
+        font-size: 14px;
+    }
+    .da img{
+        max-width: 50%;
+    }
+}
+
+@media (max-width:873px) {
+    .download-app{
+        flex-direction: column;
+    }
+    .download-app button{
+        width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+@media (max-width:788px) {
+    .da{
+        flex-direction: column-reverse;
+        padding: 20px 0;
+    }
+    .download-app{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        /* border: 2px solid black; */
+        gap: 0;
+    }
+    .download-app button{
+        margin: 0;
+        flex: 0 1 30%;
+    }
+}
+
+@media (max-width:640px) {
+    .download-app button{
+        margin: 0;
+        flex: 0 1 45%;
+    }
+}
+
+@media (max-width:430px) {
+    .download-app{
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+    }
+    .download-app button{
+        flex: 0 1 60%;
+    }
+}
+
+@media (max-width:385px) {
+    .download-app{
+        width: 90%;
+        margin: auto;
+    }
+    .download-app button{
+        width: 100%;
+        justify-content: center;
     }
 }
