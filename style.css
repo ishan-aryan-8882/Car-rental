@@ -1181,13 +1181,6 @@ header ion-icon {
 }
 
 @media (max-width:640px) {
-    .download-app button{
-        margin: 0;
-        flex: 0 1 48%;
-    }
-}
-
-@media (max-width:430px) {
     .download-app{
         flex-direction: column;
         justify-content: center;
@@ -1195,11 +1188,24 @@ header ion-icon {
         align-items: center;
     }
     .download-app button{
-        width: 60%;
+        margin: 0;
+        width: 40%;
     }
 }
 
-@media (max-width:385px) {
+@media (max-width:500px) {
+    .download-app{
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+    }
+    .download-app button{
+        width: 50%;
+    }
+}
+
+@media (max-width:398px) {
     .download-app{
         width: 90%;
         margin: auto;
