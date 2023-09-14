@@ -1039,7 +1039,7 @@ header ion-icon {
 
 .da {
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1155,7 +1155,7 @@ header ion-icon {
         flex-direction: column;
     }
     .download-app button{
-        width: 50%;
+        width: 60%;
         text-align: center;
         margin: auto;
     }
