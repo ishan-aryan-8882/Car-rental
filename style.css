@@ -1137,6 +1137,7 @@ header ion-icon {
     .da-text p {
         color: gray;
         font-size: 14px;
+        padding: 10px;
     }
     .da img{
         max-width: 50%;
@@ -1144,6 +1145,12 @@ header ion-icon {
 }
 
 @media (max-width:873px) {
+    .da img{
+        max-width: 50%;
+    }
+    .da-text{
+        flex:0 1 50%;
+    }
     .download-app{
         flex-direction: column;
     }
