@@ -964,3 +964,70 @@ header ion-icon {
         flex: 0 1 100%;
     }
 }
+
+#faq{
+    width: 70%;
+    margin: auto;
+    padding: 5px;
+}
+
+#faq h4, #faq h2, #faq p{
+    margin-bottom: 15px;
+}
+
+#faq h4, #faq h2 {
+    width: 100%;
+    text-align: center;
+    font-weight: 200;
+}
+
+#faq h2{
+    padding: 5px;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+#faq p{
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    color: gray;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.accordion{
+    width: 70%;
+    margin: auto;
+}
+
+.accordion-button{
+    background: linear-gradient(90deg,#FD662F,#ff8d64);
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.accordion-item{
+    background: transparent;
+    padding: 0;
+    border: transparent;
+    /* border: 1px solid rgba(147, 147, 147, 0.386); */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.133);
+}
+
+.accordion-button:focus{
+    box-shadow: 0px 5px 10px transparent;
+}
+
+.accordion{
+    /* border: 2px solid black; */
+    border-radius: 15px;
+}
+
+@media (max-width:1000px) {
+    .accordion{
+        width: 100%;
+    }
+}
