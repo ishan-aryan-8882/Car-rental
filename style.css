@@ -1030,7 +1030,7 @@ header ion-icon {
     .accordion{
         width: 100%;
     }
-    .faq{
+    #faq{
         width: 100%;
     }
 }
